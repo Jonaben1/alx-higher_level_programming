@@ -7,4 +7,4 @@ def uppercase(str):
             result += chr(ordinal)
         else:
             result += character
-    print(f"{result}")
+    print("{}".format(result))
