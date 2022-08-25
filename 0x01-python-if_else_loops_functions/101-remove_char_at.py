@@ -13,4 +13,7 @@ def remove_char_at(str, n):
     # Returning string after removing
     # nth indexed character.
 
-    return (a + b)
+    if n >= 0:
+        return (a + b)
+    else:
+        return (str)
