@@ -4,6 +4,8 @@ Rectangle:
     creating an empty class
     Returns nothing
 """
+
+
 class Rectangle:
     pass
 
