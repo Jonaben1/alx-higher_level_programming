@@ -7,9 +7,11 @@ Rectangle:
 
 
 class Rectangle:
-    pass
 
     """
     Creating an empty class that returns nothing
 
     """
+
+
+    pass
