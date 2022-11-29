@@ -9,4 +9,4 @@ for (const key in data) {
   ocurrences[idx].push(key);
 }
 
-console.log(ocurrences)
+console.log(ocurrences);

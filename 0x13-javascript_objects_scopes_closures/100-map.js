@@ -4,4 +4,3 @@ const data = require('./100-data.js').list;
 const parsedData = data.map((num, index) => num * index);
 console.log(data);
 console.log(parsedData);
-
