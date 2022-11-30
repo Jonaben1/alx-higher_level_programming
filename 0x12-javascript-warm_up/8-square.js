@@ -1,10 +1,15 @@
 #!/usr/bin/node
-const x = process.argv[2];
-let y = '';
-for (let i = 0; i < x; i++) {
-  for (let j = 0; j < x; j++) {
-    y += 'X';
+const myVar = 'X';
+const myArgs = process.argv.splice(2);
+const num = Number(myArgs[0]);
+if (!num) {
+  console.log('Missing size');
+} else {
+  myString = '';
+  for (let i = 0; i < num; i++) {
+    myString += myVar;
   }
-  y += '\n';
+  for (let i = 0; i < num; i++) {
+    console.log(myString);
+  }
 }
-console.log(''.concat(...y));
