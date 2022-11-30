@@ -5,7 +5,7 @@ const num = Number(myArgs[0]);
 if (!num) {
   console.log('Missing size');
 } else {
-  myString = '';
+  let myString = '';
   for (let i = 0; i < num; i++) {
     myString += myVar;
   }

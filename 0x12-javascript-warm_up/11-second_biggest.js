@@ -1,23 +1,9 @@
 #!/usr/bin/node
-const args = process.argv.splice(2);
-if ((args.length === 0) || (args.length === 1)) {
+
+const numbers = process.argv.slice(2).map(a => parseInt(a, 10)).sort((a, b) => b - a);
+
+if (!numbers.length || numbers.length === 1) {
   console.log(0);
 } else {
-  console.log(second(args));
-}
-
-function second (arg) {
-  let first = arg[0];
-  let sec = arg[1];
-  for (const x in arg) {
-    if (arg[x] > first) {
-      first = arg[x];
-    }
-    for (const x in arg) {
-      if ((arg[x] > sec) && (arg[x] < first)) {
-        sec = arg[x];
-      }
-    }
-  }
-  return sec;
+  console.log(numbers[1]);
 }

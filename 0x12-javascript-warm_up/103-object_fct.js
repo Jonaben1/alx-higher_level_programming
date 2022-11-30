@@ -1,6 +1,5 @@
 #!/usr/bin/node
 
-
 // In the line 9 insert into myObject a function
 // to increment the value of myObject value.
 const myObject = {
