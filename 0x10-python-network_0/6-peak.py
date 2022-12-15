@@ -1,9 +1,13 @@
 #!/bin/bash/python3
-""" Define a peak-finding algorithm """
+"""
+Define a peak-finding algorithm
+"""
 
 
 def find_peak(list_of_integers):
-    """ Return a peak in a list of unsorted integer"""
+    """
+    Return a peak in a list of unsorted integer
+    """
     if list_of_integers == []:
         return None
     leng = len(list_of_integers)
